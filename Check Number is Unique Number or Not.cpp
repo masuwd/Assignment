@@ -6,7 +6,7 @@ using namespace std;
 int main()
  {
 char num[100];
-cout<<"Enter the Number"
+cout<<"Enter the Number\n";
 cin>>num;
 int len = strlen(num);
 std::sort(num, num+len); 
